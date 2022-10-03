@@ -69,6 +69,6 @@ function fillObject(data) {
     
     console.log({exampleDiag})
 }
-// submitFileForTranscriptionAndExtractData(file1Url, function() {
-//     submitFileForTranscriptionAndExtractData(file2Url);
-// });
+submitFileForTranscriptionAndExtractData(file1Url, function() {
+    submitFileForTranscriptionAndExtractData(file2Url);
+});
